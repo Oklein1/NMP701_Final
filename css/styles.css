@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#iiif-map {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+#current-view {
+    position: absolute;
+    left: 60px;
+    top: 12px;
+    z-index: 1000;
+    background: whitesmoke;
+    padding: 8px 12px;
+}
+
+#ui {
+    position: absolute;
+    left: 12px;
+    bottom: 12px;
+    z-index: 1000;
+    background: whitesmoke;
+    padding: 8px 12px;
+}

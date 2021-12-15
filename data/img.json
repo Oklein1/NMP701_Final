@@ -1,4 +1,4 @@
-var imgJson = {
+const imgJson = {
     "@context": "http://iiif.io/api/presentation/2/context.json",
     "@id": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s41k/manifest",
     "@type": "sc:Manifest",
