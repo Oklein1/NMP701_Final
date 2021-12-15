@@ -1,0 +1,92 @@
+var imgJson = {
+    "@context": "http://iiif.io/api/presentation/2/context.json",
+    "@id": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s41k/manifest",
+    "@type": "sc:Manifest",
+    "label": "Die gantze Welt in ein Kleberblat, welches in der Stadt Hannover, meines lieben Vaterlandes Wapen",
+    "thumbnail": {
+        "@id": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s41k/thumbnail",
+        "service": {
+            "@context": "http://iiif.io/api/image/2/context.json",
+            "@id": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:tx31qn451",
+            "profile": "http://iiif.io/api/image/2/level2.json"
+        }
+    },
+    "viewingHint": "individuals",
+    "metadata": [{
+        "label": "Title",
+        "value": "Die gantze Welt in ein Kleberblat, welches in der Stadt Hannover, meines lieben Vaterlandes Wapen"
+    }, {
+        "label": "Date",
+        "value": "1581"
+    }, {
+        "label": "Creator",
+        "value": "Bünting, Heinrich, 1545-1606"
+    }, {
+        "label": "Publisher",
+        "value": "Magdeburg : [s.n.]"
+    }, {
+        "label": "Type of Resource",
+        "value": "cartographic"
+    }, {
+        "label": "Format",
+        "value": "Maps"
+    }, {
+        "label": "Description",
+        "value": "Depicting the world as a cloverleaf, this cartographic curiosity reflects the traditional Medieval world view of three continents. Since it was published in the late-16th century long after the New World discoveries had gained wide acceptance, its primary appeal would have been to readers who cherished the past. It was one of several whimsical diagrams included in a book, which was essentially the Bible rewritten as an illustrated travel book. The author, a professor of theology in Hannover, used the trefoil or cloverleaf arms of his native city to represent the world, making this map more a statement of civic pride than a serious attempt at cartography. Each of the three leaves represents one of the continents -- Asia, Europe, and Africa. At the intersection of the leaves, Jerusalem is clearly marked. In recognition of the New World discoveries, America is shown almost as an afterthought in the lower left hand corner."
+    }, {
+        "label": "Language",
+        "value": "German"
+    }, {
+        "label": "Subjects",
+        "value": "World maps--Early works to 1800"
+    }, {
+        "label": "Location",
+        "value": "Private Collection"
+    }, {
+        "label": "Collection (local)",
+        "value": "Mapping Boston Collection"
+    }, {
+        "label": "Identifier",
+        "value": ["https://ark.digitalcommonwealth.org/ark:/50959/3f462s41k", "05_01_000217",
+            "39999052509427"
+        ]
+    }, {
+        "label": "Terms of Use",
+        "value": ["No known copyright restrictions.",
+            "This work is licensed for use under a Creative Commons Attribution Non-Commercial Share Alike License (CC BY-NC-SA)."
+        ]
+    }],
+    "description": "Depicting the world as a cloverleaf, this cartographic curiosity reflects the traditional Medieval world view of three continents. Since it was published in the late-16th century long after the New World discoveries had gained wide acceptance, its primary appeal would have been to readers who cherished the past. It was one of several whimsical diagrams included in a book, which was essentially the Bible rewritten as an illustrated travel book. The author, a professor of theology in Hannover, used the trefoil or cloverleaf arms of his native city to represent the world, making this map more a statement of civic pride than a serious attempt at cartography. Each of the three leaves represents one of the continents -- Asia, Europe, and Africa. At the intersection of the leaves, Jerusalem is clearly marked. In recognition of the New World discoveries, America is shown almost as an afterthought in the lower left hand corner.",
+    "attribution": "No known copyright restrictions. This work is licensed for use under a Creative Commons Attribution Non-Commercial Share Alike License (CC BY-NC-SA). ",
+    "license": "http://creativecommons.org/licenses/by-nc-sa/3.0",
+    "seeAlso": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s41k",
+    "sequences": [{
+        "@type": "sc:Sequence",
+        "canvases": [{
+            "@id": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s41k/canvas/tx31qn451",
+            "@type": "sc:Canvas",
+            "label": "image 1",
+            "thumbnail": "https://ark.digitalcommonwealth.org/ark:/50959/tx31qn451/thumbnail",
+            "width": 8432,
+            "height": 6672,
+            "images": [{
+                "@id": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s41k/annotation/tx31qn451",
+                "@type": "oa:Annotation",
+                "motivation": "sc:painting",
+                "resource": {
+                    "@id": "https://ark.digitalcommonwealth.org/ark:/50959/tx31qn451/large_image",
+                    "@type": "dcterms:Image",
+                    "format": "image/jpeg",
+                    "width": 8432,
+                    "height": 6672,
+                    "service": {
+                        "@context": "http://iiif.io/api/image/2/context.json",
+                        "@id": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:tx31qn451",
+                        "profile": "http://iiif.io/api/image/2/level2.json"
+                    }
+                },
+                "on": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s41k/canvas/tx31qn451"
+            }]
+        }]
+    }]
+}
