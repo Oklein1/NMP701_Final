@@ -1,191 +1,74 @@
 const pagesJson = {
-    "metadata": {
-        "author": "Garrett Dash Nelson",
-        "title": "Narrating maps and images with panel-truck",
-        "subtitle": "An interactive tool from the Leventhal Map & Education Center",
-        "publishedDate": "2021-02-12"
+    scene0: {
+        country: 'None',
+        description: "This eight-map anthology by the American cartographer Richard Edes Harrison was published in Fortune magazine in 1944. During the World War II years Harrison pioneered a new cartographic approach influenced by aviation: looking at the world as if from above. During the 19th century, “birds-eye-view” maps in America came to represent thorough, albeit sometimes incomprehensible, statistical maps (Schulten 2012). Harrison's maps are a literal (steel) bird's view. His maps lack statistical information, and instead focus on simplification, connections, and narrative.  Harrison's maps provided a stark new view of countries, continents and connectivity that was lost in the ubiquitous Mercator projection (Schulten 2001). The maps, especially those of WWII theater, became extremely popular with magazine readers for their “visceral” portrayal; however some cartographers lambasted Harrison for sacrificing scientific accuracy, and calling his maps “propagandist”. ",
+        mapZoom: [
+            [-638.3137664794922,-311.5122833251953],
+            [125.68623352050781,1128.4877166748047]
+        ]
     },
-    "sources": [{
-            "id": "1",
-            "type": "iiifManifest",
-            "manifest": "https://www.digitalcommonwealth.org/search/commonwealth:6969z354f/manifest.json",
-            "moreInfo": "https://collections.leventhalmap.org/search/commonwealth:6969z354f"
-        },
-        {
-            "id": "2",
-            "type": "iiifManifest",
-            "manifest": "https://www.digitalcommonwealth.org/search/commonwealth:6969z354f/manifest.json",
-            "sequence": 0,
-            "canvas": 1,
-            "image": 0,
-            "moreInfo": "https://collections.leventhalmap.org/search/commonwealth:6969z354f"
-        },
-        {
-            "id": "3",
-            "type": "iiifImage",
-            "imageEndpoint": "https://digital.library.unt.edu/iiif/ark:/67531/metadc891/m1/1/info.json",
-            "moreInfo": "https://digital.library.unt.edu/ark:/67531/metadc891/m1/1/"
-        },
-        {
-            "id": "4",
-            "type": "staticImage",
-            "imageFile": "https://img1.grunge.com/img/gallery/the-worst-things-captain-picard-has-ever-done/intro-1570819077.jpg",
-            "moreInfo": "https://en.wikipedia.org/wiki/Patrick_Stewart"
-        },
-        {
-            "id": "5",
-            "type": "geoMap"
-        },
-        {
-            "id": "6",
-            "type": "geoMap",
-            "tileJSON": "https://s3.us-east-2.wasabisys.com/urbanatlases/39999059012052/tileset.json",
-            "moreInfo": "https://atlascope.leventhalmap.org"
-        },
-        {
-            "id": "7",
-            "type": "geoMap",
-            "tileXYZ": "https://a.tile.opentopomap.org/{z}/{x}/{y}.png"
-        }
-    ],
-    "scenes": [{
-            "source": "1",
-            "extent": [
-                1983,
-                -2568,
-                2831,
-                -1837
-            ],
-            "caption": {
-                "title": "A caption may have a title",
-                "text": "And descriptive text telling the reader what we're looking at. This image is loaded from a IIIF Manifest, by passing the Manifest URL together with a sequence, canvas, and image indices."
-            }
-        },
-        {
-            "source": "1",
-            "extent": [
-                2395,
-                -3374,
-                4168,
-                -2155
-            ],
-            "caption": {
-                "title": "Taking a tour",
-                "text": "We can tour around the image by changing the extent that we want featured in the view."
-            }
-        },
-        {
-            "source": "1",
-            "caption": {
-                "text": "A caption doesn't need a title; only the text is required. **Markdown** _is also_ supported, and we can [insert links](https://leventhalmap.org)"
-            }
-        },
-        {
-            "source": "2",
-            "extent": [
-                5434,
-                -4641,
-                7566,
-                -3015
-            ],
-            "caption": {
-                "title": "Jumping to a new image in the same Manifest",
-                "text": "Now we've jumped over to another image from the same Manifest."
-            }
-        },
-        {
-            "source": "2",
-            "extent": [
-                50,
-                -1300,
-                1200,
-                -800
-            ],
-            "moreInfo": "https://collections.leventhalmap.org/search/commonwealth:6969z354f",
-            "caption": {
-                "text": "And now we're panning around that image. You can pan around as much as you like, at any zoom level."
-            }
-        },
-        {
-            "source": "3",
-            "caption": {
-                "title": "IIIF Single Image",
-                "text": "If we don't want to load from a Manifest, we can pass an Image endpoint directly, instead"
-            }
-        },
-        {
-            "source": "4",
-            "caption": {
-                "title": "But not everybody uses IIIF!",
-                "text": "That's true ... which is why we can also pass in a static image"
-            }
-        },
-        {
-            "source": "4",
-            "moreInfo": "http://patrickstewartsong.ytmnd.com",
-            "extent": [
-                300,
-                200,
-                700,
-                450
-            ],
-            "caption": {
-                "text": "Image extents are in positive pixel coordinates from the lower left corner. We can also override the moreInfo link for a specific slide."
-            }
-        },
-        {
-            "source": "5",
-            "extent": [
-                -7913969.8286,
-                5225321.2452,
-                -7908050.7362,
-                5231737.1783
-            ],
-            "caption": {
-                "text": "We can also use real world maps; this one is from OSM"
-            }
-        },
-        {
-            "source": "5",
-            "extent": [
-                -7911817.6485,
-                5229372.4077,
-                -7910337.8754,
-                5230976.391
-            ],
-            "caption": {
-                "text": "And now we're zooming the map to a new extent"
-            }
-        },
-        {
-            "source": "6",
-            "extent": [
-                -7910381.833063327,
-                5214743.9101842595,
-                -7909811.426519942,
-                5215200.235418969
-            ],
-            "caption": {
-                "text": "If we have a custom web map, we can pass it in using either a TileJSON ..."
-            }
-        },
-        {
-            "source": "7",
-            "extent": [
-                -7910896.224,
-                5214033.0488,
-                -7910156.3375,
-                5214835.0404
-            ],
-            "caption": {
-                "text": "... or as a standard XYZ schema. Map scenes use EPSG:3857 (Web Mercator) coordinates for their extents."
-            }
-        },
-        {
-            "source": "7",
-            "caption": {
-                "text": "If you don't provide an extent for a geographic map, it will zoom to the entire world."
-            }
-        }
-    ]
+    scene1: {
+        country: 'US',
+        description: "This map centers on the U.S., while showing the major American port cities connected to other parts of the world. This is typical view of “geographical isolation” of the U.S. that Harrison strived to dispel. His WWII maps, for example, emphasize the country’s proximity to the embattled parts of the world, as well as its centrality in the conflict.",
+        mapZoom: [
+            [-248.47198486328125,-65.07759857177734,],
+            [-57.47198486328125,294.92240142822266]
+        ]
+    },
+    scene2: {
+        country: 'Iceland',
+        description: "One common technique that Harrison employed was to center his maps at the North Pole (Schulten 2001). Such feat is impossible in the Mercator projection; Harrison instead argued for Azimuthal projection as more appropriate (Tyner 2015). When “looking down” at the North Pole, all of sudden far-away Asia and Europe appear much closer, and the tiny Iceland reigns as “kingpin of North Atlantic”. This is the space-time compression of the aviation age illustrated in map form.",
+        mapZoom: [
+            [-242.748779296875,89.75276947021484],
+            [-51.748779296875,449.75276947021484]
+        ]
+    },
+    scene3: {
+        country: 'Europe',
+        description: "This map centers on Europe, cradled by its “close neighbors”, with the U.S. tethered to it by shipping routes. Schulten writes that from the war period and beyond, educational atlases in America tried to portray the world as more interconnected. Harrison’s cartographic approach was particularly appealing for that reason.",
+        mapZoom: [
+            [-240.65827178955078,259.479248046875],
+            [-49.65827178955078,619.479248046875]
+        ]
+    },
+    scene4: {
+        country: 'Africa',
+        description: "In this disorienting perspective centered on Africa, the North Pole points down and to the left, defying cartographic conventions of the time. This unfamiliar view of Africa underscores the massive size of the continent (much diminished in the Mercator projection). To create their visual impact, Harrison's maps have to sacrifice a certain amount of geography accuracy. His maps have been criticizes as being artistic rather than scientific (Schulten 2001).",
+        mapZoom: [
+            [-242.3383331298828,414.7229919433594],
+            [-51.33833312988281,774.7229919433594]
+        ]
+    },
+    scene5: {
+        country: 'Argentina',
+        description: "“The dagger pointing at the heart of Antarctica” may seem like a silly description of Argentina, but it graphically underscores the effect of this rarely-seen perspective, with the South Pole at the top. In fact, the entire continent of Antarctica is usually missing entirely form the Mercator projection maps. Here, it looks just a hop away from the tip of Argentina (and even Miami doesn't seem terribly far away). Harrison has foreseen the North Pole becoming an important battleground in the age of aviation; could the South Pole be close behind?",
+        mapZoom: [
+            [-429.79936599731445,-67.75711822509766],
+            [-238.79936599731445,292.24288177490234]
+        ]
+    },
+    scene6: {
+        country: 'Australia',
+        description: "Floating in the sea of blue, this “island continent” seems more isolated than others. It is interesting how the northern hemisphere maps are very “land-oriented”, focuses on what Schulten (2001) describes as “tightly wedged continents brought closer by the dramatic advances in aviation”. The maps of Argentina and Australia remind the viewer of the vastness of the world's oceans, although as a collection, these maps hardly produce the perception of the “blue planet.”",
+        mapZoom: [
+            [-429.3784828186035,92.46717071533203],
+            [-238.37848281860352,452.46717071533203]
+        ]
+    },
+    scene7: {
+        country: 'Alaska',
+        description: "This another polar perspective maps, reminiscent of another Harrison map, “Japan from Alaska” (Schulten 2001). These maps underscore the proximity of Alaska (then a U.S. territory) to Asia. During the war, this map could have a different connotation: the proximity of the enemy. Harrison’s maps spoke to those concerned with U.S. vulnerability in the world, as well as those with more humanistic views of global relations (Schulten 2001).",
+        mapZoom: [
+            [-430.0257911682129,257.2304916381836],
+            [-239.0257911682129,617.2304916381836]
+        ]
+    },
+    scene8: {
+        country: 'Asia',
+        description: "Another disorienting perspective that flaunts its defiance of cartographic traditions. Here, the eastern parts of Asia and North America look dimished, with the focus on the center of the continent, “the cradle of civilization, the grave of conquest”, with Europe sadly peeking out from under the “elbow” of the Middle East. The poignant caption adds to the dramatic emotional impact. Because of their distortions and emotional appeal, some critics dismissed Harrison's maps as propaganda.", 
+        mapZoom: [
+            [-430.5622978210449,417.1325912475586],
+            [-239.56229782104492,777.1325912475586]
+        ]
+    },
 }

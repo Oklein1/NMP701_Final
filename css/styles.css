@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 #iiif-map {
@@ -28,12 +29,12 @@ body {
     padding: 8px 12px;
 }
 
-#caption-wrapper {
+#text-box {
     position: absolute;
     height: auto;
     bottom: 45px;
-    left: 100px;
-    right: 100px;
+    left: 20%;
+    right: 20%;
     display: flex;
     flex-direction: row;
     border-radius: 3px;
@@ -41,6 +42,10 @@ body {
     margin: 20px;
     z-index: 1000;
     background-color: rgb(233, 199, 132);
+    font-family: 'Nunito Sans', sans-serif;
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(252, 108, 56);
 
 }
 
@@ -64,12 +69,6 @@ body {
     color: #a39e94;
 }
 
-.counter {
-    margin: 0 10px 0 0;
-    font-weight: 700;
-    font-size: .8rem;
-}
-
 .item-container {
     margin: 20px auto;
     width: 50%;
@@ -88,9 +87,3 @@ button {
     color: rgb(0, 0, 0);
     cursor: pointer;
 }
-
-#ui-box {
-    width: 200px;
-    height: 200px;
-    background-color: red;
-  }
