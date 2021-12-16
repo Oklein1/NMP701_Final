@@ -27,3 +27,64 @@ body {
     background: whitesmoke;
     padding: 8px 12px;
 }
+
+#caption-wrapper {
+    position: absolute;
+    height: auto;
+    bottom: 45px;
+    left: 100px;
+    right: 100px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 20px;
+    z-index: 1000;
+    background-color: rgb(233, 199, 132);
+
+}
+
+#caption-left-control {
+    border-right: 2px dotted rgba(238,232,221,.99);
+}
+
+#caption-right-control {
+    border-left: 2px dotted rgba(238,232,221,.99);
+}
+
+.caption-control {
+    min-width: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#caption-bottom-control {
+    font-size: .85rem;
+    color: #a39e94;
+}
+
+.counter {
+    margin: 0 10px 0 0;
+    font-weight: 700;
+    font-size: .8rem;
+}
+
+.item-container {
+    margin: 20px auto;
+    width: 50%;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+button {
+    outline: none;
+    padding: 2px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.877);
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}

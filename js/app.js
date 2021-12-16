@@ -5,11 +5,9 @@ const map = L.map("iiif-map", {
 });
 
 
-
-// ALTERNATIVE MAP URL: https://www.digitalcommonwealth.org/search/commonwealth:3f462s82t
 const endNode = imgJson["sequences"][0]["canvases"][0]["images"][0]["resource"]["service"]["@id"]
 
-const jerusalemLayer = new L.tileLayer.iiif(endNode + "/info.json").addTo(map);
+const mercatorMap = new L.tileLayer.iiif(endNode + "/info.json").addTo(map);
 
 
 map.on("moveend", () => {
@@ -19,6 +17,7 @@ map.on("moveend", () => {
 
     // output current bounds to screen
     document.getElementById("current-bounds").innerText = currentBounds;
+    document.getElementById("caption-wrapper").innerText = "Test";
 });
 
 document
@@ -29,3 +28,7 @@ document
             [-284, 312],
         ]);
     });
+
+
+
+

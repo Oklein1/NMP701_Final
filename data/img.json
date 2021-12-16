@@ -1,29 +1,32 @@
+// MAP URL: https://www.digitalcommonwealth.org/search/commonwealth:3f462s82t
+
+
 const imgJson = {
     "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s41k/manifest",
+    "@id": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s82t/manifest",
     "@type": "sc:Manifest",
-    "label": "Die gantze Welt in ein Kleberblat, welches in der Stadt Hannover, meines lieben Vaterlandes Wapen",
+    "label": "A plat of all the world",
     "thumbnail": {
-        "@id": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s41k/thumbnail",
+        "@id": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s82t/thumbnail",
         "service": {
             "@context": "http://iiif.io/api/image/2/context.json",
-            "@id": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:tx31qn451",
+            "@id": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:3f462s833",
             "profile": "http://iiif.io/api/image/2/level2.json"
         }
     },
     "viewingHint": "individuals",
     "metadata": [{
         "label": "Title",
-        "value": "Die gantze Welt in ein Kleberblat, welches in der Stadt Hannover, meines lieben Vaterlandes Wapen"
+        "value": "A plat of all the world : projected according to the truest rules being far more exact than either the plain-card or the maps of the world described in two rounds"
     }, {
         "label": "Date",
-        "value": "1581"
+        "value": "[1657]"
     }, {
         "label": "Creator",
-        "value": "Bünting, Heinrich, 1545-1606"
+        "value": ["Wright, Edward, 1558?-1615", "Moxon, Joseph, 1627-1691"]
     }, {
         "label": "Publisher",
-        "value": "Magdeburg : [s.n.]"
+        "value": "London : Joseph Moxon"
     }, {
         "label": "Type of Resource",
         "value": "cartographic"
@@ -32,10 +35,10 @@ const imgJson = {
         "value": "Maps"
     }, {
         "label": "Description",
-        "value": "Depicting the world as a cloverleaf, this cartographic curiosity reflects the traditional Medieval world view of three continents. Since it was published in the late-16th century long after the New World discoveries had gained wide acceptance, its primary appeal would have been to readers who cherished the past. It was one of several whimsical diagrams included in a book, which was essentially the Bible rewritten as an illustrated travel book. The author, a professor of theology in Hannover, used the trefoil or cloverleaf arms of his native city to represent the world, making this map more a statement of civic pride than a serious attempt at cartography. Each of the three leaves represents one of the continents -- Asia, Europe, and Africa. At the intersection of the leaves, Jerusalem is clearly marked. In recognition of the New World discoveries, America is shown almost as an afterthought in the lower left hand corner."
+        "value": "In attempting to compete with the Dutch production of nautical charts at the end of the 16th century, the British mathematician and hydrographer Edward Wright published a navigational guide entitled Certaine Errors of Navigation. This 1599 publication included a world map which was one of the first to use the cylindrical projection introduced by Gerard Mercator in 1569. Wright's treatise on navigation along with the world map were reissued in 1657 by Joseph Moxon, a London instrument and globe maker, as well as the royal hydrographer. Moxon reworked the map, as displayed here, decorating it with five compass roses, images of a ship and a sea monster, and five ornamented text boxes. Of particular note is the title cartouche which was topped by an image of Atlas holding the Earth, a motif that was just starting to be used on atlas title pages, but also was suggestive of Moxon's address as indicated on the map, \"Sold at his Shop in Cornhill at the sign of Atlas.\" Moxon made revisions to the geographic information, reflecting new discoveries around Hudson's Bay and Australia. He also accepted the mistaken notion of California as an island, which was becoming a prevalent image on mid-17th-century English and Dutch maps. Although the size and shapes of land masses, especially in the polar regions, are greatly exaggerated on world maps using the Mercator projection, Wright's use of this projection was entirely appropriate, because the projection was originally developed for navigational purposes. The Mercator projection is noted for showing true compass direction (North, East, South, or West) any where on the map. This property is highlighted on Moxon's version of the map by the five compass roses, and especially the one centrally located in the South Atlantic, naming the cardinal as well as many intermediate directions."
     }, {
         "label": "Language",
-        "value": "German"
+        "value": "English"
     }, {
         "label": "Subjects",
         "value": "World maps--Early works to 1800"
@@ -47,45 +50,40 @@ const imgJson = {
         "value": "Mapping Boston Collection"
     }, {
         "label": "Identifier",
-        "value": ["https://ark.digitalcommonwealth.org/ark:/50959/3f462s41k", "05_01_000217",
-            "39999052509427"
-        ]
+        "value": ["https://ark.digitalcommonwealth.org/ark:/50959/3f462s82t", "06_01_000090", "39999052509518"]
     }, {
         "label": "Terms of Use",
-        "value": ["No known copyright restrictions.",
-            "This work is licensed for use under a Creative Commons Attribution Non-Commercial Share Alike License (CC BY-NC-SA)."
-        ]
+        "value": ["No known copyright restrictions.", "This work is licensed for use under a Creative Commons Attribution Non-Commercial Share Alike License (CC BY-NC-SA)."]
     }],
-    "description": "Depicting the world as a cloverleaf, this cartographic curiosity reflects the traditional Medieval world view of three continents. Since it was published in the late-16th century long after the New World discoveries had gained wide acceptance, its primary appeal would have been to readers who cherished the past. It was one of several whimsical diagrams included in a book, which was essentially the Bible rewritten as an illustrated travel book. The author, a professor of theology in Hannover, used the trefoil or cloverleaf arms of his native city to represent the world, making this map more a statement of civic pride than a serious attempt at cartography. Each of the three leaves represents one of the continents -- Asia, Europe, and Africa. At the intersection of the leaves, Jerusalem is clearly marked. In recognition of the New World discoveries, America is shown almost as an afterthought in the lower left hand corner.",
+    "description": "In attempting to compete with the Dutch production of nautical charts at the end of the 16th century, the British mathematician and hydrographer Edward Wright published a navigational guide entitled Certaine Errors of Navigation. This 1599 publication included a world map which was one of the first to use the cylindrical projection introduced by Gerard Mercator in 1569. Wright's treatise on navigation along with the world map were reissued in 1657 by Joseph Moxon, a London instrument and globe maker, as well as the royal hydrographer. Moxon reworked the map, as displayed here, decorating it with five compass roses, images of a ship and a sea monster, and five ornamented text boxes. Of particular note is the title cartouche which was topped by an image of Atlas holding the Earth, a motif that was just starting to be used on atlas title pages, but also was suggestive of Moxon's address as indicated on the map, \"Sold at his Shop in Cornhill at the sign of Atlas.\" Moxon made revisions to the geographic information, reflecting new discoveries around Hudson's Bay and Australia. He also accepted the mistaken notion of California as an island, which was becoming a prevalent image on mid-17th-century English and Dutch maps. Although the size and shapes of land masses, especially in the polar regions, are greatly exaggerated on world maps using the Mercator projection, Wright's use of this projection was entirely appropriate, because the projection was originally developed for navigational purposes. The Mercator projection is noted for showing true compass direction (North, East, South, or West) any where on the map. This property is highlighted on Moxon's version of the map by the five compass roses, and especially the one centrally located in the South Atlantic, naming the cardinal as well as many intermediate directions.",
     "attribution": "No known copyright restrictions. This work is licensed for use under a Creative Commons Attribution Non-Commercial Share Alike License (CC BY-NC-SA). ",
-    "license": "http://creativecommons.org/licenses/by-nc-sa/3.0",
-    "seeAlso": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s41k",
+    "license": "http://creativecommons.org/licenses/by-nc-sa/4.0",
+    "seeAlso": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s82t",
     "sequences": [{
         "@type": "sc:Sequence",
         "canvases": [{
-            "@id": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s41k/canvas/tx31qn451",
+            "@id": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s82t/canvas/3f462s833",
             "@type": "sc:Canvas",
             "label": "image 1",
-            "thumbnail": "https://ark.digitalcommonwealth.org/ark:/50959/tx31qn451/thumbnail",
-            "width": 8432,
-            "height": 6672,
+            "width": 10412,
+            "height": 6989,
             "images": [{
-                "@id": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s41k/annotation/tx31qn451",
+                "@id": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s82t/annotation/3f462s833",
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
                 "resource": {
-                    "@id": "https://ark.digitalcommonwealth.org/ark:/50959/tx31qn451/large_image",
-                    "@type": "dcterms:Image",
+                    "@id": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s833/large_image",
+                    "@type": "dctypes:Image",
                     "format": "image/jpeg",
-                    "width": 8432,
-                    "height": 6672,
+                    "width": 10412,
+                    "height": 6989,
                     "service": {
                         "@context": "http://iiif.io/api/image/2/context.json",
-                        "@id": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:tx31qn451",
+                        "@id": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:3f462s833",
                         "profile": "http://iiif.io/api/image/2/level2.json"
                     }
                 },
-                "on": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s41k/canvas/tx31qn451"
+                "on": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s82t/canvas/3f462s833"
             }]
         }]
     }]
