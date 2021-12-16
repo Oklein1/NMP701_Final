@@ -88,3 +88,9 @@ button {
     color: rgb(0, 0, 0);
     cursor: pointer;
 }
+
+#ui-box {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  }
