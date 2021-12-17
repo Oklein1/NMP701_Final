@@ -15,7 +15,7 @@ body {
     position: absolute;
     left: 60px;
     top: 12px;
-    z-index: 1000;
+    z-index: 2000;
     background: whitesmoke;
     padding: 8px 12px;
 }
@@ -25,9 +25,14 @@ body {
     left: 12px;
     bottom: 12px;
     z-index: 1000;
-    background: whitesmoke;
-    padding: 8px 12px;
+    /* background: #979287a1; */
+    
+
+    padding: 10px;
+    text-align: justify;
 }
+
+
 
 #text-box {
     position: absolute;
@@ -41,49 +46,60 @@ body {
     padding: 10px;
     margin: 20px;
     z-index: 1000;
-    background-color: rgb(233, 199, 132);
-    font-family: 'Nunito Sans', sans-serif;
+    background-color: rgb(197, 184, 159);
     border-style: solid;
     border-width: medium;
-    border-color: rgb(252, 108, 56);
+    border-color: rgb(173, 166, 134);
 
-}
-
-#caption-left-control {
-    border-right: 2px dotted rgba(238,232,221,.99);
-}
-
-#caption-right-control {
-    border-left: 2px dotted rgba(238,232,221,.99);
-}
-
-.caption-control {
-    min-width: 2em;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
-#caption-bottom-control {
-    font-size: .85rem;
-    color: #a39e94;
-}
-
-.item-container {
-    margin: 20px auto;
-    width: 50%;
-}
-
-.btn-container {
-    text-align: center;
 }
 
 button {
     outline: none;
     padding: 2px;
-    border: none;
-    background-color: rgba(255, 255, 255, 0.877);
+    border: 2px solid black;
+    font-size: 15px;
     border-radius: 2px;
-    color: rgb(0, 0, 0);
     cursor: pointer;
+    /* color: rgb(0, 0, 0); */
+    /* font-family: 'Gwendolyn', cursive; */
+    /* background-color: rgba(255, 255, 255, 0.877); */
+}
+
+.sidenav {
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: rgba(238, 238, 238, 0.616);
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sidenav button {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    background: none;
+    display: block;
+}
+
+
+.main {
+    margin-left: 140px;
+    /* Same width as the sidebar + left position in px */
+    font-size: 28px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
 }

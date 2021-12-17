@@ -1,89 +1,88 @@
-// MAP URL: https://www.digitalcommonwealth.org/search/commonwealth:3f462s82t
+// MAP URL: https://www.digitalcommonwealth.org/search/commonwealth:x633f9294
 
 
 const imgJson = {
     "@context": "http://iiif.io/api/presentation/2/context.json",
-    "@id": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s82t/manifest",
+    "@id": "https://ark.digitalcommonwealth.org/ark:/50959/x633f9294/manifest",
     "@type": "sc:Manifest",
-    "label": "A plat of all the world",
+    "label": "Planisphaerium Ptolemaicum siue machina orbium mundi ex hypothesi Ptolemaica in plano disposita",
     "thumbnail": {
-        "@id": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s82t/thumbnail",
+        "@id": "https://ark.digitalcommonwealth.org/ark:/50959/x633f9294/thumbnail",
         "service": {
             "@context": "http://iiif.io/api/image/2/context.json",
-            "@id": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:3f462s833",
+            "@id": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:x633f930w",
             "profile": "http://iiif.io/api/image/2/level2.json"
         }
     },
     "viewingHint": "individuals",
     "metadata": [{
         "label": "Title",
-        "value": "A plat of all the world : projected according to the truest rules being far more exact than either the plain-card or the maps of the world described in two rounds"
+        "value": "Planisphaerium Ptolemaicum siue machina orbium mundi ex hypothesi Ptolemaica in plano disposita"
     }, {
         "label": "Date",
-        "value": "[1657]"
+        "value": "1661"
     }, {
         "label": "Creator",
-        "value": ["Wright, Edward, 1558?-1615", "Moxon, Joseph, 1627-1691"]
+        "value": "Cellarius, Andreas."
     }, {
         "label": "Publisher",
-        "value": "London : Joseph Moxon"
+        "value": "Amsterdam : [s.n.]"
     }, {
         "label": "Type of Resource",
-        "value": "cartographic"
+        "value": "Cartographic"
     }, {
         "label": "Format",
         "value": "Maps"
     }, {
         "label": "Description",
-        "value": "In attempting to compete with the Dutch production of nautical charts at the end of the 16th century, the British mathematician and hydrographer Edward Wright published a navigational guide entitled Certaine Errors of Navigation. This 1599 publication included a world map which was one of the first to use the cylindrical projection introduced by Gerard Mercator in 1569. Wright's treatise on navigation along with the world map were reissued in 1657 by Joseph Moxon, a London instrument and globe maker, as well as the royal hydrographer. Moxon reworked the map, as displayed here, decorating it with five compass roses, images of a ship and a sea monster, and five ornamented text boxes. Of particular note is the title cartouche which was topped by an image of Atlas holding the Earth, a motif that was just starting to be used on atlas title pages, but also was suggestive of Moxon's address as indicated on the map, \"Sold at his Shop in Cornhill at the sign of Atlas.\" Moxon made revisions to the geographic information, reflecting new discoveries around Hudson's Bay and Australia. He also accepted the mistaken notion of California as an island, which was becoming a prevalent image on mid-17th-century English and Dutch maps. Although the size and shapes of land masses, especially in the polar regions, are greatly exaggerated on world maps using the Mercator projection, Wright's use of this projection was entirely appropriate, because the projection was originally developed for navigational purposes. The Mercator projection is noted for showing true compass direction (North, East, South, or West) any where on the map. This property is highlighted on Moxon's version of the map by the five compass roses, and especially the one centrally located in the South Atlantic, naming the cardinal as well as many intermediate directions."
+        "value": "While most of the maps in this exhibit depict just the Earth -- reflecting mankind's perception of his immediate and perceived environment -- very few address the planet's position in the larger universe. However, geographers, astronomers, and map makers during the Renaissance and Baroque periods were very interested in observing and mapping the heavenly bodies and theorizing about their relationship to the Earth. In the mid-17th century, Andreas Cellarius, a Dutch mathematician and geographer, compiled a lavish celestial atlas. This comprehensive book brought together numerous charts and a wealth of astronomical information from various sources. The initial chapters described the theories of several astronomers including Claudius Ptolemy, Nicolaus Copernicus, and Tycho Brahe. The later chapters discussed such subjects as the magnitudes of the stars, lunar and solar theories, the nature of the planets, and the constellations of the zodiac. These topics were illustrated with beautifully engraved and hand colored plates. One illustration included in Cellarius' book is this plate depicting the Earth-centered universe theorized by Claudius Ptolemy, the 2nd century A.D. geographer who lived in Alexandria, Egypt. At the center of this diagram, there is a small map of the Earth's northern hemisphere. Revolving around the Earth in separate orbits are the Moon, Mercury, Venus, the Sun, Mars, Jupiter, and Saturn. The outer circle was reserved for the stars, represented as the constellations of the zodiac. This was the prevailing theory of the universe until the mid-16th century when Copernicus proposed a solar system centered on the Sun."
     }, {
         "label": "Language",
-        "value": "English"
+        "value": "Latin"
     }, {
         "label": "Subjects",
-        "value": "World maps--Early works to 1800"
+        "value": ["World maps--Early works to 1800", "Planets--Maps--Early works to 1800", "Astronomy--Early works to 1800", "Solar system--Maps--Early works to 1800"]
     }, {
         "label": "Location",
-        "value": "Private Collection"
+        "value": "Boston Public Library"
     }, {
         "label": "Collection (local)",
-        "value": "Mapping Boston Collection"
+        "value": "Norman B. Leventhal Map Center Collection"
     }, {
         "label": "Identifier",
-        "value": ["https://ark.digitalcommonwealth.org/ark:/50959/3f462s82t", "06_01_000090", "39999052509518"]
+        "value": ["https://ark.digitalcommonwealth.org/ark:/50959/x633f9294", "05_01_000248", "QB41 .C39", "39999058997220"]
     }, {
         "label": "Terms of Use",
-        "value": ["No known copyright restrictions.", "This work is licensed for use under a Creative Commons Attribution Non-Commercial Share Alike License (CC BY-NC-SA)."]
+        "value": ["No known copyright restrictions.", "No known restrictions on use."]
     }],
-    "description": "In attempting to compete with the Dutch production of nautical charts at the end of the 16th century, the British mathematician and hydrographer Edward Wright published a navigational guide entitled Certaine Errors of Navigation. This 1599 publication included a world map which was one of the first to use the cylindrical projection introduced by Gerard Mercator in 1569. Wright's treatise on navigation along with the world map were reissued in 1657 by Joseph Moxon, a London instrument and globe maker, as well as the royal hydrographer. Moxon reworked the map, as displayed here, decorating it with five compass roses, images of a ship and a sea monster, and five ornamented text boxes. Of particular note is the title cartouche which was topped by an image of Atlas holding the Earth, a motif that was just starting to be used on atlas title pages, but also was suggestive of Moxon's address as indicated on the map, \"Sold at his Shop in Cornhill at the sign of Atlas.\" Moxon made revisions to the geographic information, reflecting new discoveries around Hudson's Bay and Australia. He also accepted the mistaken notion of California as an island, which was becoming a prevalent image on mid-17th-century English and Dutch maps. Although the size and shapes of land masses, especially in the polar regions, are greatly exaggerated on world maps using the Mercator projection, Wright's use of this projection was entirely appropriate, because the projection was originally developed for navigational purposes. The Mercator projection is noted for showing true compass direction (North, East, South, or West) any where on the map. This property is highlighted on Moxon's version of the map by the five compass roses, and especially the one centrally located in the South Atlantic, naming the cardinal as well as many intermediate directions.",
-    "attribution": "No known copyright restrictions. This work is licensed for use under a Creative Commons Attribution Non-Commercial Share Alike License (CC BY-NC-SA). ",
-    "license": "http://creativecommons.org/licenses/by-nc-sa/4.0",
-    "seeAlso": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s82t",
+    "description": "While most of the maps in this exhibit depict just the Earth -- reflecting mankind's perception of his immediate and perceived environment -- very few address the planet's position in the larger universe. However, geographers, astronomers, and map makers during the Renaissance and Baroque periods were very interested in observing and mapping the heavenly bodies and theorizing about their relationship to the Earth. In the mid-17th century, Andreas Cellarius, a Dutch mathematician and geographer, compiled a lavish celestial atlas. This comprehensive book brought together numerous charts and a wealth of astronomical information from various sources. The initial chapters described the theories of several astronomers including Claudius Ptolemy, Nicolaus Copernicus, and Tycho Brahe. The later chapters discussed such subjects as the magnitudes of the stars, lunar and solar theories, the nature of the planets, and the constellations of the zodiac. These topics were illustrated with beautifully engraved and hand colored plates. One illustration included in Cellarius' book is this plate depicting the Earth-centered universe theorized by Claudius Ptolemy, the 2nd century A.D. geographer who lived in Alexandria, Egypt. At the center of this diagram, there is a small map of the Earth's northern hemisphere. Revolving around the Earth in separate orbits are the Moon, Mercury, Venus, the Sun, Mars, Jupiter, and Saturn. The outer circle was reserved for the stars, represented as the constellations of the zodiac. This was the prevailing theory of the universe until the mid-16th century when Copernicus proposed a solar system centered on the Sun.",
+    "attribution": "No known copyright restrictions. No known restrictions on use.",
+    "seeAlso": "https://ark.digitalcommonwealth.org/ark:/50959/x633f9294",
     "sequences": [{
         "@type": "sc:Sequence",
         "canvases": [{
-            "@id": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s82t/canvas/3f462s833",
+            "@id": "https://ark.digitalcommonwealth.org/ark:/50959/x633f9294/canvas/x633f930w",
             "@type": "sc:Canvas",
             "label": "image 1",
-            "width": 10412,
-            "height": 6989,
+            "width": 9720,
+            "height": 8110,
             "images": [{
-                "@id": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s82t/annotation/3f462s833",
+                "@id": "https://ark.digitalcommonwealth.org/ark:/50959/x633f9294/annotation/x633f930w",
                 "@type": "oa:Annotation",
                 "motivation": "sc:painting",
                 "resource": {
-                    "@id": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s833/large_image",
+                    "@id": "https://ark.digitalcommonwealth.org/ark:/50959/x633f930w/large_image",
                     "@type": "dctypes:Image",
                     "format": "image/jpeg",
-                    "width": 10412,
-                    "height": 6989,
+                    "width": 9720,
+                    "height": 8110,
                     "service": {
                         "@context": "http://iiif.io/api/image/2/context.json",
-                        "@id": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:3f462s833",
+                        "@id": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:x633f930w",
                         "profile": "http://iiif.io/api/image/2/level2.json"
                     }
                 },
-                "on": "https://ark.digitalcommonwealth.org/ark:/50959/3f462s82t/canvas/3f462s833"
+                "on": "https://ark.digitalcommonwealth.org/ark:/50959/x633f9294/canvas/x633f930w"
             }]
         }]
     }]

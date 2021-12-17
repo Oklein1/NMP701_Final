@@ -1,4 +1,6 @@
-const pagesJson = {
+// was ist die Frage?
+
+const data = {
     scene0: {
         location: 0,
         description: "",
