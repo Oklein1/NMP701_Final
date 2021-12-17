@@ -2,53 +2,42 @@
 <html>
 
 <head>
-    <title>My map</title>
+    <title>SOMETHINGSOMETHINGSOMETHING</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
         integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
         crossorigin="" />
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-        }
 
-        #iiif-map {
-            position: absolute;
-            width: 100%;
-            top: 0;
-            bottom: 0;
-        }
 
-        #current-view {
-            position: absolute;
-            left: 60px;
-            top: 12px;
-            z-index: 1000;
-            background: whitesmoke;
-            padding: 8px 12px;
-        }
-
-        #ui {
-            position: absolute;
-            left: 12px;
-            bottom: 12px;
-            z-index: 1000;
-            background: whitesmoke;
-            padding: 8px 12px;
-        }
-    </style>
+    <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
+    <div id="text-box">
+        Maps are fascinating artifacts not only in what they visualize,
+        but more so in the presumptions they disclose. For contemporary
+        map-makers we deal with arithmetic collection of
+        data representing points along a raster grid. We perform arithmetic transformations on such data in order to
+        visualize them spherically. But this was not always the case, for points were not derived from storage in
+        memory, but from the stars,
+        Let us look a bit closer into this matter.
+    </div>
+
+
     <div id="iiif-map"></div>
     <div id="current-view">
         Current bounds:<br />
         <div id="current-bounds"></div>
     </div>
+
+
     <div id="ui">
-        <button id="zoom-to-legend">Zoom in on the legend</button>
+        <button id="scene0">Goal</button>
+        <button id="scene1">Method</button>
+        <button id="scene2">The Facts of the Matter</button>
+        <button id="scene3">The Matters of Facts</button>
+
     </div>
 
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
@@ -57,40 +46,20 @@
     <!-- make sure to import Leaflet-IIIF *after* the main Leaflet package -->
     <script src="https://cdn.rawgit.com/mejackreed/Leaflet-IIIF/v3.0.0/leaflet-iiif.js"></script>
 
-    <script src = './data.json'></script>
-    <script>
-        const map = L.map("iiif-map", {
-            center: [0, 0],
-            crs: L.CRS.Simple,
-            zoom: 0,
-        });
-
-        
-
-        // ALTERNATIVE MAP URL: https://www.digitalcommonwealth.org/search/commonwealth:3f462s82t
-        const endNode = imgJson["sequences"][0]["canvases"][0]["images"][0]["resource"]["service"]["@id"]
-
-        const jerusalemLayer = new L.tileLayer.iiif(endNode + "/info.json").addTo(map);
 
 
-        map.on("moveend", () => {
-            // returns 'southwest_lng,southwest_lat,northeast_lng,northeast_lat' of current view
-            const currentBounds = map.getBounds().toBBoxString();
-            //console.log(currentBounds)
 
-            // output current bounds to screen
-            document.getElementById("current-bounds").innerText = currentBounds;
-        });
-        
-        document
-            .getElementById("zoom-to-legend")
-            .addEventListener("click", () => {
-                map.flyToBounds([
-                    [-584, 12],
-                    [-284, 312],
-                ]);
-            });
-    </script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
+    <script src="https://geoservices.leventhalmap.org/panel-truck/webcomponent-0.2/panel-truck.min.js"></script> -->
+    <!-- <panel-truck screenplaySrc="./data/paneltruck.json"></panel-truck> -->
+
+
+    <script src="./data/img.js"></script>
+    <script src="./data/data.js"></script>
+    <script src="./js/app.js"></script>
+
+
 </body>
 
 </html>
