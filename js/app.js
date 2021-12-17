@@ -8,7 +8,6 @@ const map = L.map("iiif-map", {
 const endNode = imgJson["sequences"][0]["canvases"][0]["images"][0]["resource"]["service"]["@id"]
 const mercatorMap = new L.tileLayer.iiif(endNode + "/info.json").addTo(map);
 
-
 const tri = [
     [-240.17660522460938, 322.4518280029297],
     [-147.80023956298828, 482.82305908203125],
@@ -40,24 +39,20 @@ document.getElementById('ui').addEventListener('click', e => {
 
 // FUNCTIONS
 
-const textToHTML = function (str) {
-    // check for DOMParser support
-    if (support) {
-        var parser = new DOMParser();
-        var doc = parser.parseFromString(str, 'text/html');
-        return doc.body.innerHTML;
-    }
+// const textToHTML = function (str) {
+//     // check for DOMParser support
+//     if (support) {
+//         var parser = new DOMParser();
+//         var doc = parser.parseFromString(str, 'text/html');
+//         return doc.body.innerHTML;
+//     }
 
-    // Otherwise, create div and append HTML
-    var dom = document.createElement('div');
-    dom.innerHTML = str;
-    return dom;
+//     // Otherwise, create div and append HTML
+//     var dom = document.createElement('div');
+//     dom.innerHTML = str;
+//     return dom;
 
-};
-
-
-
-
+// };
 
 
 // MAP TOOLS: 
@@ -82,3 +77,4 @@ map.on('click', function (e) {
 // NOTES: 
 // 1) example: https://qawithexperts.com/article/javascript/convert-text-to-html-using-javascript/331
 // 2) Example for function: document.getElementById("divMain").innerHTML= textToHTML('<h1>Hello</h1><p>Your HTML Contents are visible now</p>');
+// 3) Example for inputing points: L.marker([39.74, -104.99]).bindPopup('This is Denver, CO.'),

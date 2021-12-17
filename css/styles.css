@@ -33,23 +33,25 @@ body {
 }
 
 
-
 #text-box {
     position: absolute;
     height: auto;
-    bottom: 45px;
-    left: 20%;
-    right: 20%;
+    bottom: 0px;
+    left: 18%;
+    right: 18%;
     display: flex;
     flex-direction: row;
     border-radius: 3px;
     padding: 10px;
-    margin: 20px;
+    margin: 90px;
     z-index: 1000;
     background-color: rgb(197, 184, 159);
     border-style: solid;
     border-width: medium;
-    border-color: rgb(173, 166, 134);
+    border-color: rgba(0, 0, 0, 0.836);
+    text-align: center;
+
+    
 
 }
 

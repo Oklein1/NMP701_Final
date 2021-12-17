@@ -14,7 +14,16 @@
 </head>
 
 <body>
-    <div id="text-box" style="font-weight: bold;"> STARTING STATE</div>
+    <div id="text-box">
+        Maps are fascinating artifacts not only in what they visualize,
+        but more so in the presumptions they disclose. For contemporary
+        map-makers we deal with arithmetic collection of
+        data representing points along a raster grid. We perform arithmetic transformations on such data in order to
+        visualize them spherically. But this was not always the case, for points were not derived from storage in
+        memory, but from the stars,
+        Let us look a bit closer into this matter.
+    </div>
+
 
     <div id="iiif-map"></div>
     <div id="current-view">
@@ -24,9 +33,10 @@
 
 
     <div id="ui">
-        <button id="scene0">Scene 0</button>
-        <button id="scene1">Scene 1</button>
-        <button id="scene2">Scene 2</button>
+        <button id="scene0">Goal</button>
+        <button id="scene1">Method</button>
+        <button id="scene2">The Facts of the Matter</button>
+        <button id="scene3">The Matters of Facts</button>
 
     </div>
 
@@ -36,18 +46,17 @@
     <!-- make sure to import Leaflet-IIIF *after* the main Leaflet package -->
     <script src="https://cdn.rawgit.com/mejackreed/Leaflet-IIIF/v3.0.0/leaflet-iiif.js"></script>
 
-    
 
 
-    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
-    <script src="https://geoservices.leventhalmap.org/panel-truck/webcomponent-0.2/panel-truck.min.js"></script>
-
+    <script src="https://geoservices.leventhalmap.org/panel-truck/webcomponent-0.2/panel-truck.min.js"></script> -->
     <!-- <panel-truck screenplaySrc="./data/paneltruck.json"></panel-truck> -->
-    
 
-    <script src="./data/img.json"></script>
-    <script src="./data/data.json"></script>
+
+    <script src="./data/img.js"></script>
+    <script src="./data/data.js"></script>
     <script src="./js/app.js"></script>
 
 
