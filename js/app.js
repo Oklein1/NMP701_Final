@@ -18,41 +18,73 @@ const tri = [
 const triPolygon = L.polygon(tri, {
     color: 'red'
 })
+
+const decan = [
+    [
+        [-70.75, 407.5],
+        [-55.75, 415.75],
+        [-59.8125, 422.625],
+        [-67.5, 433.25],
+        [-73.625, 441.3125],
+        [-80.74147033691406, 450.4189224243164],
+        [-95.61647033691406, 440.5439224243164],
+        [-86.125, 429.3125],
+        [-80.4375, 421.9375],
+        [-70.375, 406.875],
+        [-70.75, 407.5]
+    ],
+
+    [
+        [-95.5, 440.625],
+        [-104.125, 449.875],
+        [-110.375, 455.625],
+        [-118.125, 461.875],
+        [-106.75, 474.625],
+        [-95, 465.125],
+        [-80.875, 450.375],
+        [-95.5, 440.625]
+    ],
+
+    [
+        [-118.08413314819336, 461.93527603149414],
+        [-132.83413314819336, 472.87277603149414],
+        [-147.75100326538086, 482.81695556640625],
+        [-139.43850326538086, 497.75445556640625],
+        [-126.97190475463867, 489.7614517211914],
+        [-117.90940475463867, 483.4489517211914],
+        [-106.67619895935059, 474.6742744445801],
+        [-117.98869895935059, 461.8617744445801]
+    ]
+]
+
+const decanPolygon = L.polygon(decan, {
+    color: 'blue'
+})
 // Creating multi polylines
 //const multipolyline = L.polygon(tri, {color: 'red'}).addTo(map) // this goes in conditional for certain slide
 
 
 document.getElementById('ui').addEventListener('click', e => {
     const id = e.target.id
-    if (id == "scene2") {
+    if (id == "scene3") {
         document.getElementById("text-box").innerText = data[[id]]["description"];
         map.flyToBounds([data[[id]]["mapZoom"]]);
         triPolygon.addTo(map)
+        decanPolygon.addTo(map)
     } else {
         triPolygon.remove(); // DIE FRAGE: how to streamline this is the question... hm.
+        decanPolygon.remove()
         document.getElementById("text-box").innerText = data[[id]]["description"];
         map.flyToBounds([data[[id]]["mapZoom"]]);
     }
-}, false);
+}, 
+false);
 
 
 
 // FUNCTIONS
 
-// const textToHTML = function (str) {
-//     // check for DOMParser support
-//     if (support) {
-//         var parser = new DOMParser();
-//         var doc = parser.parseFromString(str, 'text/html');
-//         return doc.body.innerHTML;
-//     }
 
-//     // Otherwise, create div and append HTML
-//     var dom = document.createElement('div');
-//     dom.innerHTML = str;
-//     return dom;
-
-// };
 
 
 // MAP TOOLS: 
