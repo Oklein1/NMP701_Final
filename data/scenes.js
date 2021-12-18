@@ -73,6 +73,14 @@ const data = {
             [-392.4420700073242,-39.81927490234375],
             [-10.442070007324219,680.1807250976562]
         ]
+    },
+    scene9: {
+        location: 9,
+        description: "As we've seen from this short interaction, maps suggest. They admit to being of a time and of a place. Taking the time to make out the historical circumstance, to think through the interwoven relationships entwined in the map will not only allow one to 'hear' what the map has to say, but also allow one to 'belong' to that original point-of-view.",
+        mapZoom: [
+            [-725.042236328125,-420.7982177734375],
+            [38.957763671875,1019.2017822265625]
+        ]
     }
 }
 
