@@ -87,20 +87,22 @@ false);
 
 
 
+// Legacy Code:
+
 // MAP TOOLS: 
 
-map.on("moveend", () => {
-    // GETS BOUNDS
-    // returns 'southwest_lng,southwest_lat,northeast_lng,northeast_lat' of current view
-    const currentBounds = map.getBounds().toBBoxString();
-    document.getElementById("current-bounds").innerText = currentBounds;
-});
+// map.on("moveend", () => {
+//     // GETS BOUNDS
+//     // returns 'southwest_lng,southwest_lat,northeast_lng,northeast_lat' of current view
+//     const currentBounds = map.getBounds().toBBoxString();
+//     document.getElementById("current-bounds").innerText = currentBounds;
+// });
 
 
-map.on('click', function (e) {
-    // gets lat/lon for geometry creation
-    console.log("Lat, Lon : " + e.latlng.lat + ", " + e.latlng.lng)
-});
+// map.on('click', function (e) {
+//     // gets lat/lon for geometry creation
+//     console.log("Lat, Lon : " + e.latlng.lat + ", " + e.latlng.lng)
+// });
 
 
 
